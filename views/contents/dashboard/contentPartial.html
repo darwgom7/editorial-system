@@ -1,0 +1,250 @@
+<form class="form">
+	<div class="form__group--block">
+		<label for="txt-content-01">Username</label>
+		<input
+			id="txt-content-01"
+			class="form__control--txt"
+			type="text"
+			placeholder="user"
+		/>
+	</div>
+	<div class="form__group--block">
+		<label for="txt-content-02">Password</label>
+		<input
+			id="txt-content-02"
+			class="form__control--pass"
+			type="text"
+			placeholder="pass"
+		/>
+	</div>
+	<div class="form__group--block">
+		<label for="txt-content-02">Image</label>
+		<input
+			id="txt-content-02"
+			class="form__control--file"
+			type="file"
+			placeholder="pass"
+		/>
+	</div>
+	<div class="form__group--block">
+		<label for="txt-content-02">Option</label>
+		<select id="txt-content-02" class="form__control--select">
+			<option value="">--selection--</option>
+			<option value="">car</option>
+			<option value="">bus</option>
+			<option value="">truck</option>
+		</select>
+	</div>
+	<div class="form__group--block">
+		<input type="submit" class="btn btn__success btn__md" />
+	</div>
+	<div class="form__group--block">
+		<textarea class="form__control--txt-area" name="" id="" cols="30" rows="10">
+							placeholder</textarea
+		>
+	</div>
+	<div class="form__group--block">
+		<button class="btn btn__success btn__xs">
+			Click me!
+		</button>
+		<button class="btn btn__info">
+			Click me!
+		</button>
+		<button class="btn btn__warning">
+			Click me!
+		</button>
+		<button class="btn btn__danger">
+			Click me!
+		</button>
+	</div>
+</form>
+<table class="tb tb__responsive">
+	<thead class="thead">
+		<tr class="tb__row">
+			<th class="tb__heading">Id</th>
+			<th class="tb__heading">Name</th>
+			<th class="tb__heading">Desc</th>
+			<th class="tb__heading">
+				Informaion rel one
+			</th>
+			<th class="tb__heading">
+				Info rel two
+			</th>
+			<th class="tb__heading">
+				Info rel three
+			</th>
+			<th class="tb__heading">
+				Action
+			</th>
+		</tr>
+	</thead>
+	<tbody class="tbody">
+		<tr class="tb__row">
+			<td class="tb__data tb__data--info-start">
+				100001
+			</td>
+			<td class="tb__data">
+				Luis Fernando Cansimance Quimnaya
+			</td>
+			<td class="tb__data">
+				content
+			</td>
+			<td class="tb__data">
+				content
+			</td>
+			<td class="tb__data">
+				content
+			</td>
+			<td class="tb__data">
+				content
+			</td>
+			<td class="tb__data tb__data--container-item">
+				<a
+					class="tb__content--item btn btn__sm btn__success"
+					href="#"
+					title="Edit register"
+					>Edit</a
+				>
+				<a
+					class="tb__content--item btn btn__sm btn__danger"
+					href="#"
+					title="Remove register"
+					>Remove</a
+				>
+			</td>
+		</tr>
+		<tr class="tb__row">
+			<td class="tb__data tb__data--info-start">
+				100002
+			</td>
+			<td class="tb__data">
+				Juan Jose Aguinaga Calvache
+			</td>
+			<td class="tb__data">
+				content
+			</td>
+			<td class="tb__data">
+				content
+			</td>
+			<td class="tb__data">
+				content
+			</td>
+			<td class="tb__data">
+				content
+			</td>
+			<td class="tb__data tb__data--container-item">
+				<a
+					class="tb__content--item btn btn__sm btn__success"
+					href="#"
+					title="Edit register"
+					>Edit</a
+				>
+				<a
+					class="tb__content--item btn btn__sm btn__danger"
+					href="#"
+					title="Remove register"
+					>Remove</a
+				>
+			</td>
+		</tr>
+		<tr class="tb__row">
+			<td class="tb__data tb__data--info-start">
+				100003
+			</td>
+			<td class="tb__data">
+				Gabriel Alejandro Urrego Ponse
+			</td>
+			<td class="tb__data">
+				content
+			</td>
+			<td class="tb__data">
+				content
+			</td>
+			<td class="tb__data">
+				content
+			</td>
+			<td class="tb__data">
+				content
+			</td>
+			<td class="tb__data tb__data--container-item">
+				<a
+					class="tb__content--item btn btn__sm btn__success"
+					href="#"
+					title="Edit register"
+					>Edit</a
+				>
+				<a
+					class="tb__content--item btn btn__sm btn__info"
+					href="#"
+					title="Info register"
+					>Info</a
+				>
+				<a
+					class="tb__content--item btn btn__sm btn__danger"
+					href="#"
+					title="Remove register"
+					>Remove</a
+				>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<div id="alert" class="alert alert__success alert__hide">
+	<span class="alert__msg">
+		Succes: this is a success!
+	</span>
+	<span id="btnClose" class="alert__success-close">&times</span>
+</div>
+
+<div id="alert" class="alert alert__info alert__hide">
+	<span class="alert__msg">
+		info: this is a info!
+	</span>
+	<span id="btnClose" class="alert__info-close">&times</span>
+</div>
+
+<div id="alert" class="alert alert__warning alert__hide">
+	<span class="alert__msg">
+		Warning: this is a warning!
+	</span>
+	<span id="btnClose" class="alert__warning-close">&times</span>
+</div>
+
+<div id="alert" class="alert alert__danger alert__hide">
+	<span class="alert__msg">
+		Warning: this is a danger!
+	</span>
+	<span id="btnCloseAlert" class="alert__danger-close">&times</span>
+</div>
+
+<button id="btnTestAlert" class="btn btn__info">
+	Test alert
+</button>
+
+<div id="modalCurtain" class="modal__curtain--show">
+	<div id="modal" class="modal">
+		<div class="modal__header">
+			<h4 id="modalHeaderTitle" class="modal__header--title">
+				Title modal
+			</h4>
+			<a id="modalBtnClose" class="btn btn__dark btn__round">
+				&times;
+			</a>
+		</div>
+		<div id="modalBody" class="modal__body">
+			content
+		</div>
+		<div id="modalFooter" class="modal__footer">
+			<button id="modalBtnOk" class="btn btn__success btn__sm">
+				Confirmar
+			</button>
+			<button id="modalBtnKo" class="btn btn__danger btn__sm">
+				Cancelar
+			</button>
+		</div>
+	</div>
+</div>
+
+<button id="btnTestDialog" class="btn btn__danger">
+	Show dialog
+</button>
